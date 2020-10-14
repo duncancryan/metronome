@@ -47,7 +47,7 @@ render(){
 
             <Controls onSliderChange={this.onSliderChange}/>
 
-            <BeatsPerMinute/>
+            <BeatsPerMinute bpm={this.state.bpm}/>
 
 
         </Fragment>
