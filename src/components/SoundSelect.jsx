@@ -4,7 +4,7 @@ export default function SoundSelect(props){
 
     return(
         <Fragment>
-            <p>I am the Sound Selector!!</p>
+            <p>Sound Selector (extension)</p>
         </Fragment>
     )
 }
