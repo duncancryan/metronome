@@ -35,7 +35,7 @@ export default function Controls(props){
 
         <Fragment> 
             <h4> I Play and Pause and adjust BPM()</h4>
-                <input type="range" id="bpm" name="bpm" min="1" max="200" defaultValue="100" onChange={handleChange}></input>
+                <input type="range" id="bpm" name="bpm" min="1" max="400" defaultValue="100" onChange={handleChange}></input>
                 
                 {/* <button onClick={handleToggle}>Play/Pause</button> */}
                 <button onClick={handleToggle}>Play/Pause</button>
